@@ -1,0 +1,302 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+/* Navbar */
+.navbar-brand {
+    font: 32px Viga;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    /* background: url(../img/banner_pikobar-02.jpg); */
+    background-color: #122a58;
+    background-size: cover;
+    height: 540px;
+    position: relative;
+    z-index: -1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+    bottom: 0;
+}
+
+.jumbotron .container {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .display-4 {
+    font-weight: 200;
+    font-size: 2.6em;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.gejala {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gejala h1 {
+    color: white;
+}
+
+.baris_gejala h5 {
+    color: white;
+}
+
+
+/* Info Panel */
+.info-panel {
+    background-color: white;
+    padding: 30px;
+    margin-top: -120px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-color: #ea7888;
+}
+
+.info-panel-card {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+}
+.info-panel-toptalent {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+}
+.info-panel-hakathon {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+}
+
+.info-panel-volunteer {
+    background-color:#122a58;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.info-panel p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #070707;
+}
+
+
+
+/* Workingspace */
+.workingspace {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.workingspace img {
+    margin-bottom: 20px;
+}
+
+.workingspace h2 {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.workingspace h2 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #070707;
+    font-weight: 200;
+}
+
+
+/* Testimonial */
+.testimonial {
+    margin-top: 130px;
+}
+
+.testimonial p {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+.testimonial .img-main {
+    width: 100px;
+    height: 100px;
+    margin-top: -5px;
+    filter: grayscale(0);
+}
+
+.testimonial .info-text h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.testimonial .info-text p {
+    font-size: 12px;
+    margin-top: -5px;
+    /* color: #acacac; */
+    font-style: normal;
+}
+
+
+
+/* Utility */
+.tombol {
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVE */
+@media (min-width: 992px) {
+    .navbar {
+        padding-top: 20px;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        margin: auto;
+        margin-bottom: -8px;
+        width: 50%;
+        padding-top: 5px;
+    }
+
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 5em;
+        margin-top: 150px;
+    }
+
+
+    .workingspace {
+        text-align: left;
+    }
+
+    .testimonial p {
+        font-size: 2em;
+    }
+
+}
+
+.data-font {
+    font-size: small;
+}
+
+.btn-custom {
+    border-radius: 10px;
+}
+
+.infografis {
+    margin-bottom: 10%;
+}
+
+.download h6 {
+    display: inline;
+}
+
+/* carousel */
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+
+
