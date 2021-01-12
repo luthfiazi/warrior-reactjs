@@ -30,7 +30,7 @@ export default function Foot() {
                         <Row>
                             <Col sm={6} className="text-left mb-5">
                                 <h1 className="display-4">
-                                    <Nav.Link href="#" className="navbar-brand"><img src="img/warrior.png" width="100px" /><h6>Social</h6></Nav.Link>
+                                    <Nav.Link href="#" className="navbar-brand"><img src="img/warrior.png" width="100px" alt="..." /><h6>Social</h6></Nav.Link>
                                 </h1>
                                 <div className="mt-5">
                                     <img src="img/Ellipse 8.png" width="50px" alt="" />

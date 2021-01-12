@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import './owl.css';
 
 import Content from './components/Content';
 import Foot from './components/Foot';

@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <Container>
             <Navbar bg="navbar navbar-expand-lg navbar-light">
-                <Navbar.Brand href="#"><img src="img/warrior.png" width="80px" /></Navbar.Brand>
+                <Navbar.Brand href="#"><img src="img/warrior.png" width="80px" alt="..." /></Navbar.Brand>
                 {/* <Button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
