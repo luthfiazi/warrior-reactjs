@@ -46,6 +46,9 @@ body{
 .jumbotron .display-4 span {
   font-weight: 500;
 }
+.foot {
+  font-weight: 500;
+}
 
 .gejala {
   background: #000428;
@@ -101,7 +104,7 @@ body{
 .info-panel-volunteer {
   background-color:#122a58;
   padding: 30px;
-  margin-top: 20px;
+  margin-top: -200px;
   border-radius: 12px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }

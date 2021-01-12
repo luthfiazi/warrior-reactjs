@@ -29,7 +29,7 @@ export default function Foot() {
                         </Row>
                         <Row>
                             <Col sm={6} className="text-left mb-5">
-                                <h1 className="display-4">
+                                <h1>
                                     <Nav.Link href="#" className="navbar-brand"><img src="img/warrior.png" width="100px" alt="..." /><h6>Social</h6></Nav.Link>
                                 </h1>
                                 <div className="mt-5">
@@ -39,8 +39,8 @@ export default function Foot() {
                                     <img src="img/Ellipse 11.png" width="50px" alt="" />
                                 </div>
                             </Col>
-                            <Col sm={6} classname="text-center">
-                                <h1 className="display-4">
+                            <Col sm={6} classname="text-left">
+                                <h1 className="foot">
                                     "Growth Your Business With a Great ManPower"
                                 </h1>
                             </Col>
